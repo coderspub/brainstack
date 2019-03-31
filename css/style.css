@@ -55,7 +55,7 @@ html, body {
   #swipe {
     display: none;
   }
-  h1 {
+  .subtitles {
     text-align: center;
   }
 }
