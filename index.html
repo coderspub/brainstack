@@ -26,13 +26,13 @@
                 <a class="navbar-brand" href="index.html">Brainstack Solutions</a>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                   <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item active">
+                    <li class="nav-item active" data-toggle="collapse" data-target="#navbarTogglerDemo03">
                       <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" data-toggle="collapse" data-target="#navbarTogglerDemo03">
                       <a class="nav-link" href="#courses">Courses</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" data-toggle="collapse" data-target="#navbarTogglerDemo03">
                        <a class="nav-link" href="#contactus">Contact Us</a>
                     </li>
                   </ul>
@@ -44,7 +44,7 @@
               <section>
               <div class="container container-fluid" id="home">
               </div>
-              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
                 <ol class="carousel-indicators">
                   <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                   <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -86,6 +86,7 @@
                   <span class="sr-only">Next</span>
                 </a>
               </div>
+              
               <div class="arrow bounce" id="swipe">
                 <i class="fas fa-angle-double-down"></i>
               </div>
@@ -404,7 +405,7 @@
                   </div>
                 </div>
             
-            </main>
+       
             <footer class="footer mt-auto py-3">
                   <div class="container">
                     <p class="text-muted">&copy;  brainstack solutions 2019 | All Rights Reserved</p>
@@ -413,6 +414,7 @@
                 </footer>
               </section>
                 </div>
+              </main>
         <!-----models-->
         <script src="./node_modules/jquery/dist/jquery.min.js"></script>
         <script src="./node_modules/popper.js/dist/umd/popper.min.js"></script>
